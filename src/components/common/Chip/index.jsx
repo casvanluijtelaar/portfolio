@@ -6,13 +6,17 @@ import { Body, Icon } from './styles';
 export const Chip = ({ icon, children, href, color }) => {
   const { theme } = useContext(ThemeContext);
 
-  return (
-    <a href={href} target="_blank" rel="noreferrer">
-      <Body theme={theme} color={color}>
-        {icon != null && <Icon theme={theme} color={color}> <img src={icon} alt={icon} /></Icon>}
-        {children}
-      </Body>
-    </a>
+  const content = href !== undefined ? <a href={href} target="_blank" rel="noreferrer">
+    <Body theme={theme} color={color}>
+      {icon != null && <Icon theme={theme} color={color}> <img src={icon} alt={icon} /></Icon>}
+      {children}
+    </Body>
+  </a> :
+    <Body theme={theme} color={color}>
+      {icon != null && <Icon theme={theme} color={color}> <img src={icon} alt={icon} /></Icon>}
+      {children}
+    </Body>;
 
-  );
+
+  return (content);
 };
