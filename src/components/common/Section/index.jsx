@@ -1,0 +1,23 @@
+import React, { useContext } from 'react';
+
+import { ThemeContext } from 'providers/ThemeProvider';
+import { Container } from 'components/common';
+import { Wrapper, ContentWrapper, Details } from './styles';
+
+
+export const Section = ({ children }) => {
+  const { theme } = useContext(ThemeContext);
+
+  return (
+    <Wrapper className='scrollItem'>
+      <ContentWrapper as={Container}>
+      <Details theme={theme}>
+        {children}
+        </Details>
+      </ContentWrapper>
+    </Wrapper>
+  );
+  
+}
+
+
