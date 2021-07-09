@@ -44,12 +44,28 @@ const Home = () => {
 
 		gsap.fromTo('body', { opacity: 0 }, { opacity: 1, duration: 1 });
 
+
+
 	});
+
+	function isChrome() {
+		var isChromium = window.chrome;
+		var winNav = window.navigator;
+		var vendorName = winNav.vendor;
+		var isOpera = typeof window.opr !== "undefined";
+		var isIEedge = winNav.userAgent.indexOf("Edge") > -1;
+
+		return isChromium !== null &&
+			typeof isChromium !== "undefined" &&
+			vendorName === "Google Inc." &&
+			isOpera === false &&
+			isIEedge === false;
+	}
 
 
 	return (
-
-		<Layout>
+	
+		<Layout isChrome={isChrome()}>
 			<Seo />
 			<Section>
 				<h1 id='intro'>Hi There!</h1>
