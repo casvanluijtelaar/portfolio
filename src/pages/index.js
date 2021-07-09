@@ -49,6 +49,8 @@ const Home = () => {
 	});
 
 	function isChrome() {
+		if (typeof document === "undefined") return true;
+
 		var isChromium = window.chrome;
 		var winNav = window.navigator;
 		var vendorName = winNav.vendor;

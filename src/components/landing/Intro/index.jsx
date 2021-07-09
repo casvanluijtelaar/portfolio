@@ -37,7 +37,7 @@ export const Intro = () => {
 
         <p>
           Hey &#128075; I'm Cas! For the last {getAge(new Date(2016, 9, 1))} years I've been making creative software experiences on all platforms.
-          Currently working as a full stack developer for <a href='https://rvised.com/'>Rvised</a>. Current passions are FLutter, Music and electronics. &#128522;
+          Currently working as a full stack developer for <a href='https://rvised.com/'>Rvised</a>. Current passions are Flutter, Music and electronics. &#128522;
         </p>
       </Details>
 
