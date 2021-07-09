@@ -47,8 +47,6 @@ const Home = () => {
 	});
 
 
-
-
 	return (
 
 		<Layout>

@@ -24,7 +24,7 @@ export const Intro = () => {
 
   return (
     <Wrapper className='phoneItem'>
-      <img src={headshot} alt="headshot" width='400px' height='400px' />
+      <img loading="lazy" src={headshot} alt="headshot" width='400px' height='400px' />
       <Details>
         <h2>Cas van Luijtelaar</h2>
         <h4>Software developer & Interaction Designer</h4>

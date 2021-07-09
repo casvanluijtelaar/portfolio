@@ -7,7 +7,7 @@ export const Project = ({ image, url }) => {
   return (
     <Wrapper className='phoneItem'>
       <a href={url} target="_blank" rel="noreferrer">
-        <img src={image} alt={url}></img>
+        <img loading="lazy" src={image} alt={url}></img>
       </a>
     </Wrapper>
   );
