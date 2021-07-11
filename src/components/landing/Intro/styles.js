@@ -15,6 +15,7 @@ export const Wrapper = styled.div`
   text-align: center;
 
   h2 {
+    margin-top: 10px;
     margin-bottom: 0px;
   }
 
@@ -31,6 +32,7 @@ export const Wrapper = styled.div`
     height: 100%;
     object-fit: cover;
     margin: 0px;
+    border-radius: 40px 40px 0 0;
   }
 
 
