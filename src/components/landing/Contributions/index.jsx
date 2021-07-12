@@ -25,6 +25,10 @@ export const Contributions = () => {
         <h4>Blurhash</h4>
         <p>A flutter/dart implementation for the Blurhash algorithm</p>
       </Card>
+      <Card theme={theme}  target="_blank" rel="noreferrer" href='https://youtu.be/X04kq9voH3I'>
+        <h4>Vintage LaunchPad</h4>
+        <p>Turn any old 1980s organ into a digital launchpad</p>
+      </Card>
     </Wrapper>
   );
 };

@@ -9,20 +9,21 @@ export const ContentWrapper = styled.div`
   height: 100%;
   display: flex;
   align-items: center;
-  justify-content: start;
+  justify-content: flex-start;
 
-  @media (max-width: 600px) {
-    align-items: flex-end;
+  @media (max-width: 850px) {
+    flex-direction: column;
     justify-content: center;
+    gap: 40px;
   }
 `;
 
 export const Details = styled.div`
   flex: 0.5;
 
-  @media (max-width: 600px) {
-      flex: 1;
-      margin: 10px 10px 40px 10px;
+  @media (max-width: 850px) {
+      flex: none;
+      text-align: center;
   }
 
   h1 {
@@ -51,5 +52,25 @@ export const Details = styled.div`
     @media (max-width: 680px) {
       font-size: 20pt;
     }
+  }
+`;
+
+
+export const Top = styled.div`
+  display: none;
+  overflow: hidden;
+  width: min(50vw, 250px);
+  height: min(50vw, 250px);
+  border-radius: 100%;
+  background-color: red;
+
+  @media (max-width: 850px) {
+    display: block;
+  }
+
+  img {
+    margin: 0;
+    padding: 0;
+
   }
 `;

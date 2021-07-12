@@ -22,8 +22,7 @@ export const Icon = styled.div`
   margin: 0 5px 0 -10px;
 
   img {
-    width: 20px;
-    height: 20px;
+    width: 75%;
     margin: 0px !important;
     padding: 4px;
     filter: ${({ theme, color }) => (color ? '' : (theme === 'light' ? 'invert(0)' : 'invert(0.8)'))};

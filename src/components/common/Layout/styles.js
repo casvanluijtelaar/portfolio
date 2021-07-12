@@ -4,7 +4,8 @@ export const Global = createGlobalStyle`
 
 
 html {
-  scroll-snap-type: ${({ isChrome }) => (isChrome ? 'y proximity' : 'y mandatory')};
+  scroll-snap-type: y mandatory;
+  background-color: none !important;
 }
 
 body {
