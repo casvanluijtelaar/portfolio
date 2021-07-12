@@ -30,8 +30,8 @@ export const PhoneWrapper = styled.div`
 
 export const Frame = styled.div`
   
-  aspect-ratio: 0.5;
-  height: 80%;
+  width: 40vh;
+  height: 80vh;
   padding: 10px;
 	background-color: ${({ theme }) => (theme === 'light' ? '#e6e6e6' : '#757575')}; 
 	border-radius: 40px;
