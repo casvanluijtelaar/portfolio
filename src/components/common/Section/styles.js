@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const Wrapper = styled.div`
+export const Wrapper = styled.section`
   height: 100vh;
   scroll-snap-align: center;
 `;
@@ -43,7 +43,7 @@ export const Details = styled.div`
     margin-bottom: 2rem;
     font-size: 24pt;
     font-weight: normal;
-    color: ${({ theme }) => (theme === 'light' ? '#707070' : '#e6e6e6')};
+    color: ${({ theme }) => (theme === 'light' ? '#212121' : '#e6e6e6')};
 
     @media (max-width: 960px) {
       mix-blend-mode: ${({ theme }) => (theme === 'light' ? 'unset' : 'difference')};

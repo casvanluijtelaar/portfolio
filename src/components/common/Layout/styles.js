@@ -9,8 +9,14 @@ body {
   opacity: 0;
 }
 
-.scrollItem {  
+section:last-of-type {
+  
+  @media (max-width: 850px) {
+    margin-bottom: 50vh;
+  }
+ 
 }
+
 
 /* width */
 ::-webkit-scrollbar {

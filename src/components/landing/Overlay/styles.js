@@ -11,8 +11,6 @@ export const Wrapper = styled.div`
 
   @media  (max-width: 850px) {
     z-index: -100;
-    filter: blur(4px);
-    opacity: 0.7;
   }
 
 `;
