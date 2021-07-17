@@ -24,7 +24,7 @@ const Home = () => {
 
 			ScrollTrigger.create({
 				trigger: box,
-				animation: gsap.fromTo(box, { opacity: 0 }, { opacity: 1 }),
+				animation: gsap.fromTo(box, { opacity: 0,  }, { opacity: 1,  }),
 				start: 'center bottom',
 				end: 'center center',
 				scrub: true,
@@ -33,7 +33,7 @@ const Home = () => {
 
 			ScrollTrigger.create({
 				trigger: box,
-				animation: gsap.fromTo(box, { opacity: 1 }, { opacity: 0, immediateRender: false }),
+				animation: gsap.fromTo(box, { opacity: 1,  }, { opacity: 0, immediateRender: false }),
 				start: 'center center',
 				end: 'center top',
 				scrub: true,

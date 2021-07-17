@@ -17,14 +17,12 @@ export const Body = styled.div`
 export const Icon = styled.div`
   display: block;
   float: left;
-  width: 28px;
+  width: 20px;
+  padding: 4px;
   text-align: center;
   margin: 0 5px 0 -10px;
 
   img {
-    width: 75%;
-    margin: 0px !important;
-    padding: 4px;
     filter: ${({ theme, color }) => (color ? '' : (theme === 'light' ? 'invert(0)' : 'invert(0.8)'))};
   }
 `;

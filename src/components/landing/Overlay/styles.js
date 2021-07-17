@@ -7,10 +7,9 @@ export const Wrapper = styled.div`
   
   top: 0;
   left: 0;
-  pointer-events: none;
 
   @media  (max-width: 850px) {
-    z-index: -100;
+    z-index: 200;
   }
 
 `;
@@ -20,7 +19,6 @@ export const PhoneWrapper = styled.div`
   height: 100%;
   align-items: center;
   justify-content: flex-end;
-  pointer-events: none;
 
   @media  (max-width: 850px) {
     justify-content: center;
@@ -42,7 +40,7 @@ export const Frame = styled.div`
 
 
 export const Screen = styled.div`
-    pointer-events: all;
+    pointer-events: auto !important;
     overflow: hidden;
 
     width: 100%;
