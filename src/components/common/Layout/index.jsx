@@ -3,12 +3,12 @@ import { ThemeContext } from 'providers/ThemeProvider';
 import { Global } from './styles';
 import './fonts.css';
 
-export const Layout = ({ children, isChrome }) => {
+export const Layout = ({ children }) => {
   const { theme } = useContext(ThemeContext);
 
   return (
     <>
-      <Global theme={theme} isChrome={isChrome} />
+      <Global theme={theme}/>
       {children}
     </>
   );

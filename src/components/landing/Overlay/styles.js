@@ -4,14 +4,17 @@ export const Wrapper = styled.div`
   height: 100vh;
   width: 100vw;
   position: fixed;
-  z-index: 100;
+  
   top: 0;
   left: 0;
   pointer-events: none;
 
   @media  (max-width: 850px) {
-    display: none;
+    z-index: -100;
+    filter: blur(4px);
+    opacity: 0.7;
   }
+
 `;
 
 export const PhoneWrapper = styled.div`
@@ -20,6 +23,10 @@ export const PhoneWrapper = styled.div`
   align-items: center;
   justify-content: flex-end;
   pointer-events: none;
+
+  @media  (max-width: 850px) {
+    justify-content: center;
+  }
 
 `;
 
@@ -57,6 +64,7 @@ export const Contents = styled.div`
   height: 100%;
   position: relative;
   overflow: auto;
+  overflow-x: hidden;
   background-color: ${({ theme }) => (theme === 'light' ? '#fff' : '#414141')};
 `;
 

@@ -30,8 +30,8 @@ export const Overlay = () => {
       ScrollTrigger.create({
         trigger: section,
         animation: gsap.fromTo(contents[i], start, end),
-        start: 'center bottom',
-        end: 'center center',
+        start: 'center 90%',
+        end: 'center 70%',
         scrub: true,
         toggleActions: 'restart none none reverse'
       });
@@ -39,8 +39,8 @@ export const Overlay = () => {
       ScrollTrigger.create({
         trigger: section,
         animation: gsap.fromTo(contents[i], end, { ...start, immediateRender: false }),
-        start: 'center center',
-        end: 'center top',
+        start: 'center 30%',
+        end: 'center 10%',
         scrub: true,
         toggleActions: 'restart none none reverse'
       });
@@ -51,7 +51,7 @@ export const Overlay = () => {
   }
 
   return (
-    <Wrapper>
+    <Wrapper id='wrapper'>
       <PhoneWrapper as={Container}>
         <Frame theme={theme}>
           <Screen theme={theme}>

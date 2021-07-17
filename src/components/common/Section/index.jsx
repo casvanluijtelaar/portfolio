@@ -2,7 +2,7 @@ import React, { useContext } from 'react';
 
 import { ThemeContext } from 'providers/ThemeProvider';
 import { Container } from 'components/common';
-import { Wrapper, ContentWrapper, Details, Top } from './styles';
+import { Wrapper, ContentWrapper, Details } from './styles';
 
 
 export const Section = ({ children, header }) => {

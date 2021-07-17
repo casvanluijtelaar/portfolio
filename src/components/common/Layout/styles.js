@@ -3,17 +3,13 @@ import { createGlobalStyle } from 'styled-components';
 export const Global = createGlobalStyle`
 
 
-html {
-  scroll-snap-type: y mandatory;
-  background-color: none !important;
-}
+
 
 body {
   opacity: 0;
 }
 
-.scrollItem {
-  scroll-snap-align: center !important;    
+.scrollItem {  
 }
 
 /* width */

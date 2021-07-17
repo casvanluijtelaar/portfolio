@@ -25,7 +25,7 @@ const Home = () => {
 			ScrollTrigger.create({
 				trigger: box,
 				animation: gsap.fromTo(box, { opacity: 0 }, { opacity: 1 }),
-				start: 'center 90%',
+				start: 'center bottom',
 				end: 'center center',
 				scrub: true,
 				toggleActions: 'restart none none reverse',
@@ -35,7 +35,7 @@ const Home = () => {
 				trigger: box,
 				animation: gsap.fromTo(box, { opacity: 1 }, { opacity: 0, immediateRender: false }),
 				start: 'center center',
-				end: 'center 10%',
+				end: 'center top',
 				scrub: true,
 				toggleActions: 'restart none none reverse',
 			});
@@ -48,26 +48,10 @@ const Home = () => {
 
 	});
 
-	function isChrome() {
-		if (typeof document === "undefined") return true;
-
-		var isChromium = window.chrome;
-		var winNav = window.navigator;
-		var vendorName = winNav.vendor;
-		var isOpera = typeof window.opr !== "undefined";
-		var isIEedge = winNav.userAgent.indexOf("Edge") > -1;
-
-		return isChromium !== null &&
-			typeof isChromium !== "undefined" &&
-			vendorName === "Google Inc." &&
-			isOpera === false &&
-			isIEedge === false;
-	}
-
 
 	return (
 	
-		<Layout isChrome={isChrome()}>
+		<Layout>
 			<Seo />
 			<Section>
 				<h1 id='intro'>Hi There!</h1>
