@@ -87,7 +87,7 @@ const mobile = () => {
 
     ScrollTrigger.create({
       trigger: section,
-      animation: gsap.fromTo('#wrapper', { filter: 'blur(0px)', opacity: '1', autoRound: false }, { filter: 'blur(4px)', opacity: '0.7', autoRound: false }),
+      animation: gsap.fromTo('#wrapper', { filter: 'blur(0px)', opacity: '1', zIndex: 100, autoRound: false }, { filter: 'blur(4px)', zIndex: -100, opacity: '0.7', autoRound: false }),
       start: 'center bottom',
       end: 'center 75%',
       scrub: true,
@@ -96,7 +96,7 @@ const mobile = () => {
 
     ScrollTrigger.create({
       trigger: section,
-      animation: gsap.fromTo('#wrapper', { filter: 'blur(4px)', opacity: '0.7', autoRound: false }, { filter: 'blur(0px)', opacity: '1', autoRound: false }),
+      animation: gsap.fromTo('#wrapper', { filter: 'blur(4px)', opacity: '0.7', zIndex: -100, autoRound: false }, { filter: 'blur(0px)', opacity: '1', zIndex: 100, autoRound: false }),
       start: 'center 15%',
       end: 'center top',
       scrub: true,

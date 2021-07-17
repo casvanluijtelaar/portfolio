@@ -8,9 +8,7 @@ export const Wrapper = styled.div`
   top: 0;
   left: 0;
 
-  @media  (max-width: 850px) {
-    z-index: 200;
-  }
+  z-index: -100;
 
 `;
 
