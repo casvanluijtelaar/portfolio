@@ -55,7 +55,7 @@ const Home = () => {
 			<Seo />
 			<Section>
 				<h1 id='intro'>Hi There!</h1>
-				<h4>I'm Cas van Luijtelaar, A software developer and interaction designer currently located in Belgium</h4>
+				<h4>I'm Cas van Luijtelaar, a software developer and interaction designer currently located in Belgium</h4>
 				<Button color='#A62639' theme={theme} as={AnchorLink} href="#contact">Get in Touch</Button>
 			</Section>
 			<Section>
@@ -63,7 +63,7 @@ const Home = () => {
 				<h5>Indoor LED based wayfinding</h5>
 				<p>
 					Leading is an Indoor wayfinding solution that uses strategically positioned LED elements that are used to bring personalized and yet privacy aware wayfinding
-					to an indoor environment. This project uses color and animation to present a unique route to each user.
+					to an indoor environment. This project uses colour and animation to present a unique route to each user.
 					A mobile application is used that controls all interaction with these elements. This project was part of a Master thesis with open source code for the
 					<a href='https://github.com/casvanluijtelaar/leading' target="_blank" rel="noreferrer"> mobile application</a> and the
 					<a href='https://github.com/casvanluijtelaar/leading-microcontroller' target="_blank" rel="noreferrer"> LED controllers</a>.
@@ -78,8 +78,8 @@ const Home = () => {
 				<h1>Rvised Communications</h1>
 				<h5>A whitelabel business communications platform</h5>
 				<p>
-					A business communications intranet used by several mid sized businesses and includes features like employee teams, post feeds, shared calendars,
-					real-time chat and a lot more. This application is completely personalized to your company.
+					A business communications intranet used by several mid sized businesses and includes features such as employee teams, post feeds, shared calendars,
+					real-time chat and a lot more. This application is completely personalised to your company.
 				</p>
 				<Chips>
 					<Chip color='#9776CF'>Flutter</Chip>
@@ -91,7 +91,7 @@ const Home = () => {
 				<h1>Wilder</h1>
 				<h5>Nationwide wildlife reporting</h5>
 				<p>
-					An application used for the spotting, and reporting damage, of wildlife. This application was developt for a goverment accosiated organisation.
+					An application used for the spotting and reporting damage of wildlife. This application was developed for a goverment associated organisation.
 					It automatically catogorizes any public report and sends it to one of 4000 localized members.
 				</p>
 				<Chips>
