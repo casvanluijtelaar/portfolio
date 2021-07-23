@@ -2,14 +2,11 @@ import { createGlobalStyle } from 'styled-components';
 
 export const Global = createGlobalStyle`
 
-
-
-
 body {
   opacity: 0;
 }
 
-section:last-of-type {
+section {
   
   @media (max-width: 850px) {
     margin-bottom: 50vh;

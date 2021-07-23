@@ -72,9 +72,10 @@ const mobile = () => {
     ScrollTrigger.create({
       trigger: section,
       animation: gsap.fromTo(contents[i], end, { ...start, immediateRender: false }),
-      start: 'bottom 40%',
-      end: 'bottom 20%',
+      start: 'bottom 20%',
+      end: 'bottom 0%',
       scrub: true,
+      markers: true,
       toggleActions: 'restart none none reverse'
     });
 
