@@ -75,7 +75,6 @@ const mobile = () => {
       start: 'bottom 20%',
       end: 'bottom 0%',
       scrub: true,
-      markers: true,
       toggleActions: 'restart none none reverse'
     });
 

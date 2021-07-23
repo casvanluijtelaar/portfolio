@@ -10,8 +10,8 @@ module.exports = {
     github: 'https://github.com/casvanluijtelaar',
     linkedin: 'https://www.linkedin.com/in/cas-van-luijtelaar/',
   },
-  themeColor: '#6b63ff',
-  backgroundColor: '#6b63ff',
+  themeColor: '#A62639',
+  backgroundColor: '#A62639',
   foundingDate: '2019',
   social: {
     twitter: '@CLuijtelaar'
