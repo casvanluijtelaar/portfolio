@@ -28,6 +28,10 @@ export const Contributions = () => {
         <h4>Vintage LaunchPad</h4>
         <p>Turn any old 1980s organ into a digital launchpad</p>
       </Card>
+      <Card theme={theme} target="_blank" rel="noreferrer" href='https://youtu.be/fBuQDW87KT0'>
+        <h4>Gravity Ball</h4>
+        <p>An interactive installation & team based game</p>
+      </Card>
     </Wrapper>
   );
 };
