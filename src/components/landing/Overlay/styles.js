@@ -9,7 +9,7 @@ export const Wrapper = styled.div`
   left: 0;
 
   z-index: 100;
-
+  pointer-events: none;
 `;
 
 export const PhoneWrapper = styled.div`
@@ -17,6 +17,7 @@ export const PhoneWrapper = styled.div`
   height: 100%;
   align-items: center;
   justify-content: flex-end;
+  pointer-events: none;
 
   @media  (max-width: 850px) {
     justify-content: center;
@@ -32,7 +33,7 @@ export const Frame = styled.div`
 	background-color: ${({ theme }) => (theme === 'light' ? '#e6e6e6' : '#757575')}; 
 	border-radius: 40px;
   box-shadow:  0 0px 60px -30px  ${({ theme }) => (theme === 'light' ? 'rgb(0 0 0 / 30%)' : '#cccccc')}, inset 0 -2px 6px 0  ${({ theme }) => (theme === 'light' ? 'rgb(10 37 64 / 35%)' : '#EFFFFF')};
- 
+  pointer-events: auto;
 
 `;
 
