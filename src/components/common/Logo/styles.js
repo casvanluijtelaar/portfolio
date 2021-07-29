@@ -8,11 +8,13 @@ export const Base = styled.button`
   background-color: transparent;
   border: none;
   padding: 0;
+  cursor: pointer;
 `;
 
 export const Top = styled.div`
   background-color: ${({ color }) => color};
   border-radius: 100%;
+  
   width: 70%;
   aspect-ratio: 1;
 

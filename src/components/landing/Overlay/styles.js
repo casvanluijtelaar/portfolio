@@ -60,6 +60,7 @@ export const Contents = styled.div`
   position: relative;
   overflow: auto;
   overflow-x: hidden;
+  border-radius: 40px 40px 0px 0px;
   background-color: ${({ theme }) => (theme === 'light' ? '#fff' : '#414141')};
 `;
 
