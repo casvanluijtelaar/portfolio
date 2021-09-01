@@ -127,9 +127,9 @@ export const Overlay = () => {
           <Screen theme={theme}>
             <Contents theme={theme}>
               <Intro />
-              <Project image={leading} url='https://youtu.be/yeY3V62-8Sw' />
               <Project image={rcom} url='https://fb.watch/v/1wwobMnpY/' />
               <Project image={wilder} url='https://hvv.be/wilder/' />
+              <Project image={leading} url='https://youtu.be/yeY3V62-8Sw' />
               <Project image={beatable} url='https://github.com/casvanluijtelaar/BEATABLE' />
               <Contributions />
               <Contact />

@@ -57,22 +57,6 @@ const Home = () => {
 				<Button color='#A62639' theme={theme} as={AnchorLink} href="#contact">Get in Touch</Button>
 			</Section>
 			<Section>
-				<h1>Leading</h1>
-				<h5>Indoor LED based wayfinding</h5>
-				<p>
-					Leading is an Indoor wayfinding solution that uses strategically positioned LED elements that are used to bring personalized and yet privacy aware wayfinding
-					to an indoor environment. This project uses colour and animation to present a unique route to each user.
-					A mobile application is used that controls all interaction with these elements. This project was part of a Master thesis with open source code for the
-					<a href='https://github.com/casvanluijtelaar/leading' target="_blank" rel="noreferrer"> mobile application</a> and the
-					<a href='https://github.com/casvanluijtelaar/leading-microcontroller' target="_blank" rel="noreferrer"> LED controllers</a>.
-				</p>
-				<Chips>
-					<Chip color='#568EFF'>Flutter</Chip>
-					<Chip color='#568EFF'>C++</Chip>
-					<Chip color='#568EFF'>BLE</Chip>
-				</Chips>
-			</Section>
-			<Section>
 				<h1>Rvised Communications</h1>
 				<h5>A whitelabel business communications platform</h5>
 				<p>
@@ -96,6 +80,22 @@ const Home = () => {
 					<Chip color='#4CB050'>Flutter</Chip>
 					<Chip color='#4CB050'>REST</Chip>
 					<Chip color='#4CB050'>NodeJS</Chip>
+				</Chips>
+			</Section>
+			<Section>
+				<h1>Leading</h1>
+				<h5>Indoor LED based wayfinding</h5>
+				<p>
+					Leading is an Indoor wayfinding solution that uses strategically positioned LED elements that are used to bring personalized and yet privacy aware wayfinding
+					to an indoor environment. This project uses colour and animation to present a unique route to each user.
+					A mobile application is used that controls all interaction with these elements. This project was part of a Master thesis with open source code for the
+					<a href='https://github.com/casvanluijtelaar/leading' target="_blank" rel="noreferrer"> mobile application</a> and the
+					<a href='https://github.com/casvanluijtelaar/leading-microcontroller' target="_blank" rel="noreferrer"> LED controllers</a>.
+				</p>
+				<Chips>
+					<Chip color='#568EFF'>Flutter</Chip>
+					<Chip color='#568EFF'>C++</Chip>
+					<Chip color='#568EFF'>BLE</Chip>
 				</Chips>
 			</Section>
 			<Section>
