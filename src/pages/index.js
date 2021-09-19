@@ -83,6 +83,18 @@ const Home = () => {
 				</Chips>
 			</Section>
 			<Section>
+				<h1>Wled</h1>
+				<h5>Crossplatform LED control interface</h5>
+				<p>
+					An interface for controlling <a href='https://github.com/Aircoookie/WLED' target="_blank" rel="noreferrer">WLED</a> devices. Build from the ground up up as a 
+					cross-platform application, supporting best coding practices.
+				</p>
+				<Chips>
+					<Chip color='#FC7C00'>Flutter</Chip>
+					<Chip color='#FC7C00'>BLOC</Chip>
+				</Chips>
+			</Section>
+			<Section>
 				<h1>Leading</h1>
 				<h5>Indoor LED based wayfinding</h5>
 				<p>

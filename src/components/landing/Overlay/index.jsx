@@ -9,6 +9,7 @@ import leading from 'assets/images/leading.png';
 import rcom from 'assets/images/rcom.png';
 import wilder from 'assets/images/wilder.png';
 import beatable from 'assets/images/beatable.png';
+import wled from 'assets/images/wled.jpg';
 
 import { gsap } from "gsap"
 import ScrollTrigger from "gsap/ScrollTrigger"
@@ -128,7 +129,8 @@ export const Overlay = () => {
             <Contents theme={theme}>
               <Intro />
               <Project image={rcom} url='https://fb.watch/v/1wwobMnpY/' />
-              <Project image={wilder} url='https://hvv.be/wilder/' />
+              <Project image={wilder} url='https://hvv.be/wilder/' />  
+              <Project image={wled} url='https://github.com/casvanluijtelaar/WLED-App' />
               <Project image={leading} url='https://youtu.be/yeY3V62-8Sw' />
               <Project image={beatable} url='https://github.com/casvanluijtelaar/BEATABLE' />
               <Contributions />
