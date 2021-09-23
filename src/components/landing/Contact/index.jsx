@@ -7,6 +7,7 @@ import twitterIcon from 'assets/icons/twitter.svg';
 import linkedInIcon from 'assets/icons/linkedin.svg';
 import emailIcon from 'assets/icons/email.svg';
 import stackoverflowIcon from 'assets/icons/stack.svg';
+import pdfIcon from 'assets/icons/pdf.svg';
 
 export const Contact = () => {
 
@@ -18,6 +19,8 @@ export const Contact = () => {
         <Logo icon={linkedInIcon} color='#2867B2' url='https://www.linkedin.com/in/cas-van-luijtelaar/'>Linkedin</Logo>
         <Logo icon={emailIcon} color='#A62639' url='mailto: casvanluijtelaar@hotmail.com'>Email</Logo>
         <Logo icon={stackoverflowIcon} name='StackOverflow' color='#F48024' url='https://stackoverflow.com/users/10355644/casvl/'>Stack Overflow</Logo>
+        <Logo icon={pdfIcon} name='CV' color='#34A853' url='https://drive.google.com/file/d/1ZhoKcb-IyRbM_k2_YX16dcb-Ld9jtifJ/view?usp=sharing'>Resumé</Logo>
+
       </Grid>
     </Padding>
   );
