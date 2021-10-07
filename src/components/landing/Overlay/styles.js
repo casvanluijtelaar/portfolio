@@ -32,7 +32,7 @@ export const Frame = styled.div`
   padding: 10px;
 	background-color: ${({ theme }) => (theme === 'light' ? '#e6e6e6' : '#757575')}; 
 	border-radius: 40px;
-  box-shadow:  0 0px 60px -30px  ${({ theme }) => (theme === 'light' ? 'rgb(0 0 0 / 30%)' : '#cccccc')}, inset 0 -2px 6px 0  ${({ theme }) => (theme === 'light' ? 'rgb(10 37 64 / 35%)' : '#EFFFFF')};
+  box-shadow:  0 50px 100px -20px ${({ theme }) => (theme === 'light' ? 'rgb(0 0 0 / 30%)' : '#cccccc')}, 0 30px 60px -30px rgb(0 0 0 / 30%), inset 0 -2px 6px 0 rgb(10 37 64 / 35%);
   pointer-events: auto;
 
 `;
