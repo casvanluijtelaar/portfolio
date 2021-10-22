@@ -9,7 +9,7 @@ import leading from 'assets/images/leading.png';
 import rcom from 'assets/images/rcom.png';
 import wilder from 'assets/images/wilder.png';
 import beatable from 'assets/images/beatable.png';
-import wled from 'assets/images/wled.jpg';
+import wled from 'assets/images/wled.png';
 
 import { gsap } from "gsap"
 import ScrollTrigger from "gsap/ScrollTrigger"
