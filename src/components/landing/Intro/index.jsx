@@ -11,16 +11,24 @@ import briefcase from 'assets/icons/briefcase.svg'
 
 export const Intro = () => {
 
-  function getAge(dateString) {
-    var today = new Date();
-    var birthDate = new Date(dateString);
-    var age = today.getFullYear() - birthDate.getFullYear();
-    var m = today.getMonth() - birthDate.getMonth();
-    if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
-      age--;
-    }
-    return age;
-  }
+  /*   function getAge(dateString) {
+      var today = new Date();
+      var birthDate = new Date(dateString);
+      var age = today.getFullYear() - birthDate.getFullYear();
+      var m = today.getMonth() - birthDate.getMonth();
+      if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
+        age--;
+      }
+      return age;
+    } */
+
+  /*   function getAge(birthday) { // birthday is a date
+      var ageDifMs = Date.now() - birthday.getTime();
+      var ageDate = new Date(ageDifMs); // miliseconds from epoch
+      return Math.abs(ageDate.getUTCFullYear() - 1970);
+    } */
+
+  const getAge = birthDate => Math.floor((new Date() - birthDate.getTime()) / 3.15576e+10)
 
   return (
     <Wrapper className='phoneItem'>
@@ -31,7 +39,7 @@ export const Intro = () => {
 
         <Chips>
           <Chip color='#A62639' icon={pin} href='https://www.google.com/maps/@50.8044807,5.6506495,11.67z'>Belgium</Chip>
-          <Chip color='#A62639' icon={user}>{getAge(new Date(1998, 12, 30))} Years</Chip>
+          <Chip color='#A62639' icon={user}>{getAge(new Date(1998, 11, 30, 20, 55))} Years</Chip>
           <Chip color='#A62639' icon={briefcase} href='https://rvised.com/'>Rvised</Chip>
         </Chips>
 
