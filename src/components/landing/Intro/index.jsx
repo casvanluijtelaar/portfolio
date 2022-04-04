@@ -11,23 +11,6 @@ import briefcase from 'assets/icons/briefcase.svg'
 
 export const Intro = () => {
 
-  /*   function getAge(dateString) {
-      var today = new Date();
-      var birthDate = new Date(dateString);
-      var age = today.getFullYear() - birthDate.getFullYear();
-      var m = today.getMonth() - birthDate.getMonth();
-      if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
-        age--;
-      }
-      return age;
-    } */
-
-  /*   function getAge(birthday) { // birthday is a date
-      var ageDifMs = Date.now() - birthday.getTime();
-      var ageDate = new Date(ageDifMs); // miliseconds from epoch
-      return Math.abs(ageDate.getUTCFullYear() - 1970);
-    } */
-
   const getAge = birthDate => Math.floor((new Date() - birthDate.getTime()) / 3.15576e+10)
 
   return (
@@ -45,7 +28,7 @@ export const Intro = () => {
 
         <p>
           Hey &#128075; I'm Cas! For the last {getAge(new Date(2016, 9, 1))} years I've been making creative software experiences on all platforms.
-          Currently working as a full stack developer for <a href='https://rvised.com/'>Rvised</a>. Passions include Flutter, Music and electronics. &#128522;
+          Currently working as a mobile development consultant at <a href='https://umain.com/'>Umain</a>. Passions include Flutter, Music and electronics. &#128522;
         </p>
       </Details>
 
