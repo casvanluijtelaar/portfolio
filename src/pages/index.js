@@ -53,7 +53,7 @@ const Home = () => {
 			<Seo />
 			<Section>
 				<h1 id='intro'>Hi There!</h1>
-				<h4>I'm Cas van Luijtelaar, a software developer and interaction designer currently located in Belgium</h4>
+				<h4>I'm Cas van Luijtelaar, a Stockholm based software developer and cross platform development lead</h4>
 				<Button color='#A62639' theme={theme} as={AnchorLink} href="#contact">Get in Touch</Button>
 			</Section>
 			<Section>
